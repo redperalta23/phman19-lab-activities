@@ -4,4 +4,4 @@ for number in range(1, 251):
             if (number % i) == 0:
                 break
         else:
-            print(number)
+            print(number, end=",")
